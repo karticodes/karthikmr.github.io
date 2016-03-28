@@ -223,14 +223,6 @@ html, body{
     background: #e5e5e5;
 }
 
-.social-world-inactive{
-    fill: #555;
-}
-
-.social-world-active{
-    fill: white;
-}
-
 .content-link,
 .content-link:hover, 
 .content-link:visited, 
