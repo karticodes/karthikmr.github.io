@@ -83,7 +83,7 @@
     "title": "karthikmr.com",
     "description": "My personal responsive portfolio site created to explore the power of html5, css3 and angular js data bindings.",
     "app_url": "http://www.karthikmr.com",
-    "app_icon": "styles/images/profile-square.jpg",
+    "app_icon": "images/profile-square.jpg",
     "app_role": "Design, Development and Maintenance",
     "platform": "web"
   }
