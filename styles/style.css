@@ -48,37 +48,6 @@ html, body{
     padding: 0px 20px 20px 20px;
 }
 
-@media (min-width: 768px) {
-    #container-info {
-        float: left;
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 50%; 
-        background-image: url(../images/profile.jpg);
-        background-repeat: no-repeat;
-        background-position:20% 50%;
-        background-size: cover;
-    } 
-    
-    #container-main {
-        float: right;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100%;
-        width: 50%;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        overflow-x: hidden; 
-    }
-    
-    #projects-repeat-container{
-        padding: 0px 40px 40px 40px;
-    }
-}
-
 #project_container{
     width: 100%;
     padding-top: 40px;
@@ -171,8 +140,8 @@ html, body{
 }
 
 #home-content-container{
-    height: 83%;
-    padding: 0px 20px;  
+    height: auto;
+    padding: 40px 20px;  
     text-align: center;
     font-size: 18px;
     line-height: 30px;
@@ -183,16 +152,16 @@ html, body{
     justify-content: center;
 }
 
-#home-main-content{
-    padding: 20px;
-}
-
 #social-footer, #projects-footer{
-    height: 7%;
+    height: 8%;
     text-align: center;
     overflow-x: auto;
     overflow-y: hidden;
     background-color: #FAFAFA;
+}
+
+#home-main-content{
+    padding: 20px;
 }
 
 #social-container{
@@ -232,4 +201,43 @@ html, body{
     color: #2D690E;
     font-weight: 400;
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #container-info {
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50%; 
+        background-image: url(../images/profile.jpg);
+        background-repeat: no-repeat;
+        background-position:20% 50%;
+        background-size: cover;
+    } 
+    
+    #container-main {
+        float: right;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden; 
+    }
+    
+    #projects-repeat-container{
+        padding: 0px 40px 40px 40px;
+    }
+    
+    #home-content-container{
+        height: 83%;
+    }
+
+    #social-footer, #projects-footer{
+        height: 7%;
+    }
 }
