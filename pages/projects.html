@@ -1,0 +1,23 @@
+<div style="overflow:hidden;">
+    <div id="projects-root-container">
+        <div id="projects-repeat-container">
+            <div id="project_container" ng-repeat="project in filtered = (projects | platformFilter: platform)">
+                <img id="project_image" ng-src="{{project.app_icon}}"/>
+                <div id="project_title_div">
+                    <a id="project_title_attr" ng-href="{{project.app_url}}" target="_blank">
+                        <div id="project_title">{{project.title}}<span id="project_title_arrow">&#187;</span></div>
+                    </a>
+                    <div id="app_role">{{project.app_role}}</div>
+                </div>
+                <div id="app_description" ng-bind-html="TrustDangerousSnippet(project.description)"></div>
+            </div>
+        </div>
+    </div>
+    <div id="projects-footer">
+        <div title="iOS" ng-click="UpdatePlatform('ios')" class="zocial-appstore social" ng-class="platform == 'ios' ? 'social-active' : 'social-inactive'"></div>
+        <div title="Windows" ng-click="UpdatePlatform('windows')" class="zocial-windows social" ng-class="platform == 'windows' ? 'social-active' : 'social-inactive'"></div>
+        <div title="Web" ng-click="UpdatePlatform('web')" class="social" ng-class="platform == 'web' ? 'social-active' : 'social-inactive'">
+            <div style="padding: 8px; fill: red;" ng-include="'images/web.svg'"></div>
+        </div>
+    </div>
+</div>

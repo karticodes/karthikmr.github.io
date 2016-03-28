@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Saks Fifth Avenue",
+    "description": "Saks Fifth Avenue is an e-commerce application that makes shopping experience even more enjoyable with special features like create & share wish lists, lookbooks to shop a complete look and see if an item is available at a Saks Store near you.",
+    "app_url": "https://itunes.apple.com/us/developer/saks-fifth-avenue/id472419792",
+    "app_icon": "images/saksfifthavenue.png",
+    "app_role": "Development (iPhone and iPad app)",
+    "platform": "ios"
+  },
+  {
+    "title": "Target",
+    "description": "Target for iPad let the users to shop through favourites, weekly ads, pinterest and instagram apart from the classical shopping. Users can also create/share/edit registries and get items delivered to the registry address.",
+    "app_url": "https://itunes.apple.com/en/app/target-for-ipad/id402742793?mt=8",
+    "app_icon": "images/targetipad.jpeg",
+    "app_role": "Development (iPad app)",
+    "platform": "ios"
+  },
+  {
+    "title": "BlogMate",
+    "description": "BlogMate syncs you with the world of bloggers. It is a hub that helps an user follow multiple blogs concurrently on the fly. BlogMate has an WYSIWYG editor that makes easier to add/edit posts.",
+    "app_url": "https://www.microsoft.com/en-in/store/apps/blogmate/9wzdncrdfdsz",
+    "app_icon": "images/blogmate.jpeg",
+    "app_role": "Design, Development and Maintenance (Windows Phone app)",
+    "platform": "windows"
+  },
+  {
+    "title": "Jumptuit",
+    "description": "Jumptuit lets you view and manage all of your cloud-stored files through one efficient interface, so you can stay on top of everything with ease. Just link your cloud storage accounts, and you'll have immediate access to files stored on all of them in one convenient place.",
+    "app_url": "http://www.jumptuit.com",
+    "app_icon": "images/jumptuit.jpeg",
+    "app_role": "Development (iPhone, iPad and MAC app)",
+    "platform": "ios"
+  },
+  {
+    "title": "Estee Lauder Events App",
+    "description": "The iOS application is used by all the employees of the Estee Lauder Ltd to maintain the record of the events being conducted in various locations of the world, which helps for the better understanding between the employees and management.",
+    "app_url": "https://www.esteelauder.in/",
+    "app_icon": "images/esteelauder.png",
+    "app_role": "Development (iPhone app)",
+    "platform": "ios"
+  },
+  {
+    "title": "mGaadi",
+    "description": "mGaadi is an auto rickshaw transportation service across bangalore. Users can book, schedule, share, track their mGaadi trips and pay the trip cashless using Oxigen Wallet.",
+    "app_url": "https://itunes.apple.com/in/app/mgaadi-book-auto-rickshaws/id932517587?mt=8",
+    "app_icon": "images/mgaadi.png",
+    "app_role": "Development (iPhone app)",
+    "platform": "ios"
+  },
+  {
+    "title": "Cortana Ctrl+C",
+    "description": "Ctrl+C is a simple, lightweight and Cortana powered clipboard application for Universal Windows Platforms. If cut, copy & paste made an user's life easy, Ctrl+C just makes it easier.",
+    "app_url": "https://www.microsoft.com/en-in/store/apps/blogmate/9wzdncrdfdsz",
+    "app_icon": "images/ctrlc.png",
+    "app_role": "Design, Development and Maintenance (Windows Phone 8.1 & UWP app)",
+    "platform": "windows"
+  },
+  {
+    "title": "mGaadi",
+    "description": "mGaadi is an auto rickshaw transportation service across bangalore. Users can book, schedule, share, track their mGaadi trips and pay the trip cashless using Oxigen Wallet.",
+    "app_url": "https://www.microsoft.com/en-us/store/apps/mgaadi/9nblggh0f4v6",
+    "app_icon": "images/mgaadiwin.png",
+    "app_role": "Development (Windows Phone app)",
+    "platform": "windows"
+  },
+  {
+    "title": "Cartr",
+    "description": "Cartr is a significant upgrade to an employee's daily commute in corporate-subsidized shuttle transport - tracking vehicle eta, rating drivers, and a panic button that's deeply integrated with Bangalore Police Control Room, Company Security Consoles, and ambulance/emergency hospital networks.",
+    "app_url": "https://itunes.apple.com/in/app/cartr-for-bangalore-commuters/id1064401507?mt=8",
+    "app_icon": "images/cartrios.png",
+    "app_role": "Development (iPhone app)",
+    "platform": "ios"
+  },
+  {
+    "title": "gocartr.com",
+    "description": "Cartr is a significant upgrade to an employee's daily commute in corporate-subsidized shuttle transport - tracking vehicle eta, rating drivers, and a panic button that's deeply integrated with Bangalore Police Control Room, Company Security Consoles, and ambulance/emergency hospital networks.",
+    "app_url": "http://www.gocartr.com",
+    "app_icon": "images/cartrios.png",
+    "app_role": "Design and Development(Wordpress site)",
+    "platform": "web"
+  },
+  {
+    "title": "karthikmr.com",
+    "description": "My personal responsive portfolio site created to explore the power of html5, css3 and angular js data bindings.",
+    "app_url": "http://www.karthikmr.com",
+    "app_icon": "styles/images/profile-square.jpg",
+    "app_role": "Design, Development and Maintenance",
+    "platform": "web"
+  }
+]

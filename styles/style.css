@@ -1,0 +1,243 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo|zocial);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+@font-face {
+    font-family: Fester;
+    src: url(fonts/Fester Book.otf);
+}
+
+#container-info {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background-image: url(images/profile.jpg);
+    background-repeat: no-repeat;
+    background-position:20% 30%;
+    background-size: cover;
+}
+
+#container-main {
+    display: inline-block;
+    width: 100%;
+}
+
+#projects-root-container{
+    height: 93%;
+    overflow-y: auto;
+}
+
+#projects-repeat-container{
+    padding: 0px 20px 20px 20px;
+}
+
+@media (min-width: 768px) {
+    #container-info {
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50%; 
+        background-image: url(images/profile.jpg);
+        background-repeat: no-repeat;
+        background-position:20% 50%;
+        background-size: cover;
+    } 
+    
+    #container-main {
+        float: right;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden; 
+    }
+    
+    #projects-repeat-container{
+        padding: 0px 40px 40px 40px;
+    }
+}
+
+#project_container{
+    width: 100%;
+    padding-top: 40px;
+}
+
+#project_image{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#project_title_div{
+    width: 100%; 
+    height: 60px; 
+    vertical-align: bottom; 
+    display: table-cell;
+    padding-left: 10px;
+}
+
+#project_title{
+    font-size: large;
+    font-weight: bold;
+    font-family: Fester, sans-serif;
+    margin-bottom: 2px;
+}
+
+#app_role{
+    font-size: smaller;
+    font-family: Fester, sans-serif;
+}
+
+#app_description{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: Fester, sans-serif;
+}
+
+#project_title_attr:hover, 
+#project_title_attr:visited, 
+#project_title_attr:link, 
+#project_title_attr:active
+{
+    color: black;
+    text-decoration: none;
+}
+
+#project_title_arrow{
+    margin-left: 10px;
+}
+
+#select-options-button-arrow{
+    float:left; 
+    margin-left:15px; 
+    font-size: 20px; 
+    margin-top: 9px; 
+    font-weight: 200;
+}
+
+#select_options_content_container{
+    font-size: 25px;
+    padding: 0px 8px 20px 8px;
+}
+
+.select_options_content_item{
+    margin-top: 20px;
+}
+
+#username-container{
+    width: 100%;
+    height: 10%;
+    font-family: Fester, sans-serif;
+}
+
+#username-field{
+    padding: 20px 20px 0px 20px;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+
+#userdesc-field{
+    padding: 5px 20px 20px 20px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+}
+
+#home-content-container{
+    height: 83%;
+    padding: 0px 20px;  
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    font-weight: 300;
+    font-family: Fester, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-main-content{
+    padding: 20px;
+}
+
+#social-footer, #projects-footer{
+    height: 7%;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #FAFAFA;
+}
+
+#social-container{
+    display: inline-block;
+    width: 424px;
+}
+
+.social{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-active{
+    color: white;
+    background: #2D690E;
+}
+
+.social-inactive{
+    color: #555;
+    background: #e5e5e5;
+}
+
+.social-world-inactive{
+    fill: #555;
+}
+
+.social-world-active{
+    fill: white;
+}
+
+.content-link,
+.content-link:hover, 
+.content-link:visited, 
+.content-link:link, 
+.content-link:active
+{
+    color: #2D690E;
+    font-weight: 400;
+    text-decoration: none;
+}
