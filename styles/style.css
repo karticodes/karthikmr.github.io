@@ -24,6 +24,10 @@ html, body{
 }
 
 #container-info {
+    display: none;
+}
+
+#container-info-home{
     display: inline-block;
     position: relative;
     width: 100%;
@@ -205,6 +209,7 @@ html, body{
 
 @media (min-width: 768px) {
     #container-info {
+        display: block;
         float: left;
         position: fixed;
         left: 0;
@@ -216,6 +221,10 @@ html, body{
         background-position:20% 50%;
         background-size: cover;
     } 
+    
+    #container-info-home{
+        display: none;
+    }
     
     #container-main {
         float: right;
