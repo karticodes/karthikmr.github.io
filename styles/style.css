@@ -204,7 +204,7 @@ html, body{
 {
     color: #2D690E;
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
