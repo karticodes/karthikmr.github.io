@@ -51,6 +51,8 @@ app.controller('homeController', ['$scope', '$window', 'projectService', functio
             return "http://www.mittaai.in";
             case "quora":
             return "https://www.quora.com/profile/Karthik-MR";
+            case 'goodreads':
+            return "https://www.goodreads.com/karthikmrt"
             default:
             return "";
         }
