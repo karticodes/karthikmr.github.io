@@ -1,5 +1,21 @@
 [
   {
+    "title": "Yatra",
+    "description": "Developed Cabs module to book Uber/Ola, Outstation and Hourly cabs. The module is developed as a whiteboard solution which adjusts itself to vendors' choice",
+    "app_url": "https://itunes.apple.com/in/app/yatra-cheap-flight-tickets/id730234679?mt=8",
+    "app_icon": "images/yatra.jpg",
+    "app_role": "Development (iPhone and iPad app)",
+    "platform": "ios"
+  },
+  {
+    "title": "Yatra Corporate",
+    "description": "Developed Company Transport module into the corporate app which lets corporate users to track their official commutes",
+    "app_url": "https://itunes.apple.com/in/app/book-official-trips-yatra/id1128703548?mt=8",
+    "app_icon": "images/yatracorporate.jpg",
+    "app_role": "Development (iPhone and iPad app)",
+    "platform": "ios"
+  },
+  {
     "title": "Saks Fifth Avenue",
     "description": "Saks Fifth Avenue is an e-commerce application that makes shopping experience even more enjoyable with special features like create & share wish lists, lookbooks to shop a complete look and see if an item is available at a Saks Store near you.",
     "app_url": "https://itunes.apple.com/us/developer/saks-fifth-avenue/id472419792",
